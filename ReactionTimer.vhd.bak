@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity ReactionTimerDemo is
+	port(SW 			: in std_logic_vector(1 downto 0);
+			CLOCK_50 : in std_logic;
+			KEY		: in  std_logic_vector(0 downto 0);
+			LEDG : out std_logic_vector(7 downto 0);
+			HEX0: out std_logic_vector(6 downto 0);
+			HEX1: out std_logic_vector(6 downto 0);
+			HEX2: out std_logic_vector(6 downto 0);
+			HEX3: out std_logic_vector(6 downto 0));
+end ReactionTimerDemo;
+
+architecture Shell of ReactionTimerDemo is
+	signal tempo  : std_logic_vector(13 downto 0);
+	signal enable : std_logic;
+begin
+
+end ReactionTimerDemo;

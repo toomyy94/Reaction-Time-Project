@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity lightcontrol is
+	port(enable	: in std_logic;
+		  timer	: in std_logic;
+		  light	: out std_logic);
+end ligthcontrol;
+
+architecture Behavioral of ligthcontrol is
+	signal 
+begin
+	process()
+	begin
+	
+	end process;
+	
+end Behavioral;
